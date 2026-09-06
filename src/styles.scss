@@ -1,0 +1,71 @@
+/* Global styles — Material prebuilt theme is loaded via angular.json */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  background-color: #fafafa;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+// Layout utilities
+.spacer {
+  flex: 1 1 auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+// Status chip color overrides (applied via [class] binding)
+.status-open {
+  background-color: #1976d2 !important;
+  color: white !important;
+}
+
+.status-in-progress {
+  background-color: #f57c00 !important;
+  color: white !important;
+}
+
+.status-resolved {
+  background-color: #388e3c !important;
+  color: white !important;
+}
+
+.status-closed {
+  background-color: #757575 !important;
+  color: white !important;
+}
+
+// Priority chip color overrides
+.priority-low {
+  background-color: #81c784 !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.priority-medium {
+  background-color: #ffb74d !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.priority-high {
+  background-color: #e57373 !important;
+  color: white !important;
+}
+
+.priority-urgent {
+  background-color: #b71c1c !important;
+  color: white !important;
+}
