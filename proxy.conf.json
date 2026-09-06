@@ -3,18 +3,27 @@
     "target": "http://localhost:8001",
     "secure": false,
     "changeOrigin": true,
+    "headers": {
+      "Origin": "http://localhost:5173"
+    },
     "logLevel": "info"
   },
   "/api": {
     "target": "http://localhost:8001",
     "secure": false,
     "changeOrigin": true,
+    "headers": {
+      "Origin": "http://localhost:5173"
+    },
     "logLevel": "info"
   },
   "/admin": {
     "target": "http://localhost:8001",
     "secure": false,
     "changeOrigin": true,
+    "headers": {
+      "Origin": "http://localhost:5173"
+    },
     "logLevel": "info"
   }
 }
